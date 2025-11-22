@@ -1,126 +1,61 @@
-### LAB CYCLE – AY2024-2025 [ODD]  
+### Syllabus – AY2024-2025 [ODD]  
 
 **COURSE:** DevOps  
 **SECTION:** A, B, C & D  
 **COURSE CODE:** 21IS7PEDVR  
 **TOTAL CREDITS:** 4  
-
 ---
 
-### 1. Docker Basics and Container Management with Python  
-Create a Python application, containerize it using Docker, and manage the containers with Python scripts using the Docker SDK for Python.  
+### Exercise 1 - Kubernetes Getting Started 
+Deploy an application (nginx) in kubernetes and accessing it via browser
 
-- **Objective:** Learn to use Docker and Python for container management.  
-- **Exercises:**  
-  1. Write a Python application (e.g., Flask app) and create a Dockerfile to containerize it.  
-  2. Use the docker-py library to build and run the container programmatically.  
-  3. Create a Python script to list, start, and stop Docker containers.  
-  4. Automate container health checks with a Python script.  
+<https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/1-Kubernetes-Getting-Started.md>
 
-### 2. Docker Networking with Python  
-Set up Docker networking for a multi-container Python application. Use Docker SDK for Python to manage networks.  
+### Exercise 2 -  Deploy a Flask app on Minikube using kubectl and yaml 
+Using Minikube to set up a single-node cluster and deploying a Python applications
 
-- **Objective:** Learn Docker networking using Python for multi-container setups.  
-- **Exercises:**  
-  1. Develop a Python web application and a database (e.g., SQLite) container.  
-  2. Use the docker-py library to create a custom bridge network and connect the containers.  
-  3. Write a Python script to inspect and manage Docker networks.  
-  4. Implement container communication verification using Python.  
+<https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/2-Minikube-Kubectl-Flask.md>
 
-### 3. Docker Security with AppArmor and Python  
-Secure your Python application container using AppArmor profiles.  
+### Exercise 3 -  Scaling Flask App on Single Node using Replicasets
+Implementing a Real-Life Tech Use Case: E-commerce Flash Sale
 
-- **Objective:** Understand how to secure containers with AppArmor using Python for enforcement.  
-- **Exercises:**  
-  1. Write a basic Python Flask application, containerize it, and secure it using an AppArmor profile.  
-  2. Use the Docker SDK for Python to apply and verify AppArmor profiles.  
-  3. Test restricted actions in the container with Python scripts.  
+<https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/3-Minikube-Scaling-Flask-App-with-Replicasets.md>
 
-### 4. Minikube and Kubernetes with Python  
-Set up a Kubernetes single-node cluster using Minikube and deploy Python-based applications.  
+### Exercise 4 -  Docker Networking with multiple containers
+Understand Docker networking concepts and configure a multi-container application.
 
-- **Objective:** Learn Kubernetes basics using Python applications.  
-- **Exercises:**  
-  1. Use `kubectl` and a YAML file to deploy a Python Flask app on Minikube.  
-  2. Write a Python script to scale the application to multiple pods using subprocess and Kubernetes commands.  
-  3. Create and expose a service for the application, programmatically manage the pods using Python.  
-  4. Monitor pod status using a Python script and Kubernetes API.  
+<https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/4-Docker-Networking.md>
 
-### 5. Kubernetes Single-Node Setup with Python  
-Deploy Python applications in a Kubernetes single-node cluster, using Kubernetes API for programmatic deployment.  
+### Exercise 5 -  Docker Security with AppArmor and Python
+Learning how to secure Docker containers using AppArmor profiles with Python for enforcement.
 
-- **Objective:** Automate Kubernetes management with Python.  
-- **Exercises:**  
-  1. Write a Python script to automate the creation of a single-node Kubernetes cluster using Minikube.  
-  2. Deploy a Python app in the cluster using Python’s Kubernetes client.  
-  3. Write a Python script to manage deployments, services, and scaling.  
-  4. Create an alerting system in Python to monitor pod status and notify on failures.  
+<https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/5-Docker-Security-AppArmor.md>
 
-### 6. Continuous Integration with Jenkins and Python  
-Automate Python application deployment with Jenkins pipelines.  
+### Exercise 6 -  Real-Time Operations Monitoring and Alerting
+Implement real-time insights into operational efficiency and delivery performance for quick commerce delivery platform
 
-- **Objective:** Learn how to automate Python app builds and deployments using Jenkins.  
-- **Exercises:**  
-  1. Set up Jenkins and create a pipeline to build and deploy a Python Flask app.  
-  2. Write a Jenkinsfile to automate Docker container creation for the Python app.  
-  3. Integrate GitHub for code versioning and automate the pipeline trigger upon commits using Python-based GitHub Actions.  
+<https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/6-Grafana-Realtime-Monitoring-of-Quick-Commerce-App.md>
 
-### 7. Monitoring with Grafana, Prometheus, and Python  
-Set up monitoring for a Python-based application running in Kubernetes.  
+### Exercise 7 -  Jenkins Installation and Introduction to CI/CD tools
+Installation of Jenkins to setup CI/CD pipelines
 
-- **Objective:** Implement monitoring and alerting using Grafana and Prometheus for Python applications.  
-- **Exercises:**  
-  1. Write a Python app and deploy it on Minikube, set up Prometheus to collect metrics.  
-  2. Create custom Prometheus metrics in your Python app using the `prometheus_client` library.  
-  3. Install Grafana and set up a dashboard to visualize Python app metrics.  
-  4. Set up Python-based alerts for critical metrics and integrate with Grafana.  
+<https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/7-Jenkins-CI-Automation.md>
 
-### 8. Version Control with GitHub and Python  
-Manage Python application code with GitHub for version control.  
+### Exercise 8 -  Jenkins Installation and Introduction to CI/CD tools
+Installation of Jenkins to setup CI/CD pipelines
 
-- **Objective:** Learn how to manage and collaborate on Python projects using GitHub.  
-- **Exercises:**  
-  1. Create a Python project and push it to a GitHub repository.  
-  2. Automate GitHub repository management using Python’s `PyGithub` library.  
-  3. Use GitHub Actions to run automated tests and build your Python app.  
-  4. Collaborate with others by creating branches, pull requests, and reviews programmatically using Python.  
+<https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/7-Jenkins-CI-Automation.md>
 
-### 9. Kafka and Zookeeper Setup with Python  
-Set up a Python-based application using Kafka and Zookeeper for message brokering.  
+### Exercise 9 -  Creating "Hello World" CI/CD Jenkins Job
+Creating a Jenkins job to deploy a hello-world script from github to execution using Jenkins 
 
-- **Objective:** Learn message brokering and distributed systems using Python, Kafka, and Zookeeper.  
-- **Exercises:**  
-  1. Install Kafka and Zookeeper in Docker and write a Python producer and consumer application using the `kafka-python` library.  
-  2. Write a Python script to manage Kafka topics and partitions programmatically.  
-  3. Use Zookeeper for cluster management and implement a simple Python app that connects to multiple Kafka brokers.  
-  4. Monitor Kafka performance and manage consumer groups using Python.  
+<https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/8-Jenkins-Hello-World-Job.md>
 
-### 10. Docker Volume Attachment for Persistent Storage  
-- **Objective:** Learn how to manage persistent storage using Docker volumes.  
-- **Exercises:**  
-  1. Create a Python Flask application that writes data to a SQLite database.  
-  2. Create a Docker volume and attach it to the container to persist the SQLite database.  
-  3. Verify that data persists after stopping and restarting the container.  
+### Exercise 10 -  Jenkins Multi-Stage Pipeline for deploying a Python Application
+A multi-stage Jenkins Pipeline that performs multiple stages: Build, Test and Deploy a Python application. 
 
-### 11. Docker Networking with Custom Subnets  
-- **Objective:** Learn how to configure Docker networking with custom subnets and demonstrate inter-container communication across different subnets.  
-- **Exercises:**  
-  1. Create two Python applications: one for a web service and another for a backend service.  
-  2. Configure two custom Docker bridge networks with different subnets using the command:  
-     ```bash  
-     docker network create --subnet=192.168.1.0/24 custom-network-1  
-     docker network create --subnet=192.168.2.0/24 custom-network-2  
-     ```  
-  3. Attach the web service to `custom-network-1` and the backend service to `custom-network-2`.  
-  4. Use `docker network connect` to allow inter-container communication and verify using Python scripts.  
+<https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/9-Jenkins-Multi-Stage-Pipeline.md>
 
-### 12. Kubernetes Application Scaling (Login Service Example)  
-- **Objective:** Learn how to scale up and scale down applications in Kubernetes.  
-- **Exercises:**  
-  1. Deploy a Python-based login service using Kubernetes and expose it as a service.  
-  2. Scale the service to handle increased traffic using the `kubectl scale` command:  
-     ```bash  
-     kubectl scale deployment login-service --replicas=5  
-     ```  
-  3. Use the Kubernetes Python client to automate scaling based on resource utilization (e.g., CPU load).  
-  4. Demonstrate automatic scaling with a Horizontal Pod Autoscaler (HPA).  
+
+
+
