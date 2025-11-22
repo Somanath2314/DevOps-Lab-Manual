@@ -1,4 +1,4 @@
-# Docker Networking Exercise
+# Docker Networking with multiple containers
 
 ## Objective
 
