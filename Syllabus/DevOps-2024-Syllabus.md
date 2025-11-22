@@ -1,4 +1,4 @@
-### Syllabus – AY2024-2025 [ODD]  
+### Syllabus – AY2025-2026 [ODD]  
 
 **COURSE:** DevOps  
 **SECTION:** A, B, C & D  
