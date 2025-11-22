@@ -41,20 +41,20 @@ Installation of Jenkins to setup CI/CD pipelines
 
 <https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/7-Jenkins-CI-Automation.md>
 
-### Exercise 8 -  Jenkins Installation and Introduction to CI/CD tools
-Installation of Jenkins to setup CI/CD pipelines
-
-<https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/7-Jenkins-CI-Automation.md>
-
-### Exercise 9 -  Creating "Hello World" CI/CD Jenkins Job
+### Exercise 8 -  Creating "Hello World" CI/CD Jenkins Job
 Creating a Jenkins job to deploy a hello-world script from github to execution using Jenkins 
 
 <https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/8-Jenkins-Hello-World-Job.md>
 
-### Exercise 10 -  Jenkins Multi-Stage Pipeline for deploying a Python Application
+### Exercise 9 -  Jenkins Multi-Stage Pipeline for deploying a Python Application
 A multi-stage Jenkins Pipeline that performs multiple stages: Build, Test and Deploy a Python application. 
 
-<https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/9-Jenkins-Multi-Stage-Pipeline.md>
+https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/9-Jenkins-Multi-Stage-Pipeline.md
+
+### Exercise 10 -  Multi-Node Kubernetes Cluster with Multiple Applications and Replicasets
+Deploying multiple backend applications with replicasets on a multi-node kubernetes cluster
+
+<https://github.com/urmsandeep/DevOps-Lab-Manual/blob/main/Exercises/10-Minikube-Multi-Node-Multi-App-Minikube-Deployment.md>
 
 
 
