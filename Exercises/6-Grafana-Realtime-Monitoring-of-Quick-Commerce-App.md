@@ -206,9 +206,14 @@ groups:
    - On **MacOS and Windows native** this resolves to the host machine IP address
 5. Prometheus will send HTTP GET requests to http://host.docker.internal:8000/metrics periodically at **default interval (15s)** to retrieve metrics.
    
-Run Prometheus:
+Run Prometheus WITHOUT --network=host:
 ```
-docker run -d --name prometheus --network=host -v ./prometheus.yml:/etc/prometheus/prometheus.yml -v ./alert_rules.yml:/etc/prometheus/alert_rules.yml  prom/prometheus
+docker run -d \
+  --name prometheus \
+  -p 9090:9090 \
+  -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml \
+  -v $(pwd)/alert_rules.yml:/etc/prometheus/alert_rules.yml \
+  prom/prometheus
 ```
 
 Output
