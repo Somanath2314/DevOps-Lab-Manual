@@ -300,7 +300,7 @@ In the left-hand menu, Goto: Home -> Connections -> Data sources ->prometheus
 
 In the list of data sources, select Prometheus.
 Enter the following details:
-URL: http://172.17.0.1:9090
+URL: (http://host.docker.internal:9090)
 Leave other fields as default 
 Click the Save & Test button to verify the connection.
 
